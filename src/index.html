@@ -8,9 +8,12 @@
     <title>new</title>
   </head>
   <body>
+    <!-- ----------------- big div --------------------------- -->
     <div class="md:min-h-screen mx-auto font-['Poppins'] space-y-14 ">
+
+      <!-- -------------------- navbar ----------------------- -->
       <nav
-        class="flex mx-auto justify-between md:justify-around items-center md:px-0  py-6"
+        class="flex mx-auto justify-between md:justify-around items-center px-6  py-6"
       >
         <div class="flex gap-1 items-center">
           <box-icon
@@ -40,8 +43,9 @@
           </button>
         </div>
       </nav>
+       <!-- -------------------- main ----------------------- -->
       <main
-        class="md:max-w-screen-xl mx-auto grid grid-cols-1 px-6   md:grid-cols-2 gap-16"
+        class="md:max-w-6xl mx-auto grid grid-cols-1 px-6   md:grid-cols-2 gap-16"
       >
         <section class="flex flex-col gap-14">
             <h1
@@ -50,7 +54,7 @@
             >
               Bring everyone together to Bulid better products.
             </h1>
-            <p class=" text-center md:text-left">
+            <p class="max-w-md md:text-left text-justify">
               Manage makes it simple for software teams to plan day-to-day tasks
               while keeping the larger team goals view.
             </p>
@@ -122,6 +126,10 @@
 
         <section class="flex flex-col gap-7">
           <div class="flex flex-col gap-5">
+
+
+
+            <!-- ----------------------- 01 -------------------- -->
             <div
               class="flex items-center bg-pink-200  gap-x-3 md:bg-white rounded-md"
             >
@@ -133,7 +141,7 @@
               <p class="max-w-sm font-bold text-md">Track company-wide progress</p>
             </div>
             <div>
-              <p class=" text-sm text-gray-400 leading-6">
+              <p class="max-w-md text-sm text-gray-400 text-justify leading-6">
                 See how your day-to-day tasks fit into the wider vision. Go from
                 tracking progress at the milestone level all the way down to the
                 smallest of details. Never lose sight of the bigger picture
@@ -141,6 +149,8 @@
               </p>
             </div>
           </div>
+
+                       <!-- ----------------------- 02 -------------------- -->
 
           <div class="flex flex-col gap-5">
             <div
@@ -154,13 +164,15 @@
               <p class="font-bold text-md">Advanced built-in reports</p>
             </div>
             <div>
-              <p class=" text-sm text-gray-400 leading-6">
+              <p class="max-w-md text-justify text-sm text-gray-400 leading-6">
                 Set internal delivery estimates and track progress toward
                 company goals. Our customisable dashboard helps you build out
                 the reports you need to keep key stakeholders informed.
               </p>
             </div>
           </div>
+
+                      <!-- ----------------------- 03 -------------------- -->
 
           <div class="flex flex-col gap-5">
             <div
@@ -174,7 +186,7 @@
               <p class="font-bold text-md">Everything you need in one place</p>
             </div>
             <div>
-              <p class=" text-sm text-gray-400 leading-6">
+              <p class="max-w-md text-justify text-sm text-gray-400 leading-6">
                 Stop jumping from one service to another to communicate, store
                 files, track tasks and share documents. Manage offers an
                 all-in-one team productivity solution.
@@ -184,7 +196,7 @@
         </section>
 
         <section class="col-span-full">
-          <h1 class="text-3xl md:text-4xl font-bold text-center">
+          <h1 class=" text-center text-3xl md:text-4xl font-bold ">
             What's Different About Manage?
           </h1>
         </section>
@@ -266,7 +278,7 @@
       
   <div>
     <section
-        class=" flex flex-col md:flex-row md:justify-around bg-orange-600 col-span-full px-6 py-16 gap-10 rounded-md"
+        class=" flex flex-col md:flex-row md:justify-around bg-orange-600 col-span-full px-6 py-16 gap-10 "
       >
         <div class="flex items-end">
           <h1
@@ -290,7 +302,7 @@
  
 
     <!-- ------------ footer --------------- -->
-      <footer class=" grid md:grid-cols-3 md:gap-x-80 bg-gray-800 h-full md:p-16 gap-10 pt-10">
+      <footer class=" grid md:grid-cols-3 md:gap-x-72 bg-gray-800 h-full md:p-16 gap-10 pt-10 ">
     
         <section class="md:row-start-1 flex flex-col-reverse md:flex-col items-center  gap-y-3 col-end-1  row-start-3 ">
           <div>
@@ -346,7 +358,7 @@
             <a href="https://www.instagram.com/mhamad_yasin_mala?r=nametag"
               ><box-icon
                 color="white"
-                size="md"
+                size="lg"
                 type="logo"
                 name="instagram-alt"
               ></box-icon
@@ -383,7 +395,7 @@
           </ul>
         </secion>
 
-        <section class="flex flex-col gap-y-6 px-5  col-end-1 row-start-1 md:col-end-3 ">
+        <section class="flex flex-col  px-20  md:px-5 col-end-1 row-start-1 md:col-end-3 md:gap-y-20">
           <div class="flex gap-x-2 ">
             <div>
               <input
@@ -395,14 +407,14 @@
             <div>
               <button
                 type="button"
-                class="bg-orange-600 text-white px-6 py-1 rounded-full hover:tracking-wider transition-all durantion-300"
+                class="bg-orange-600 text-white px-6 py-1 rounded-full hover:tracking-wider transition-all duration-600"
               >
                 Go
               </button>
             </div>
           </div>
-          <div>
-            <p class="md:flex flex-row hidden w-full text-white text-center  ">
+          <div class=" md:col-end-3 md:w-screen">
+            <p class=" hidden md:flex   text-white ">
               &copy;2023. by Muhammed Yasin
             </p>
           </div>
